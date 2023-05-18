@@ -6,16 +6,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/image/cover-trains.jpg');
+    background-image: url(../../../image/cover-trains.jpg);
     background-position: center;
+    background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 1;
     color: #fff;
     text-decoration: none;
-  }
-  
-  .cover__background:after {
+}
+
+.cover__background:after {
     content: '';
     width: 100%;
     height: 100%;
@@ -25,11 +26,11 @@
     left: 0;
     opacity: .3;
     transition: opacity .2s linear;
-  }
-  
-  .cover__background:hover:after {
+}
+
+.cover__background:hover:after {
     opacity: .8;
-  }
+}
 
 @media screen and (max-width: 1279px) {
     .cover__link {
